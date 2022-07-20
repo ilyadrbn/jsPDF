@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../public/css/certificate.css" />
+    <title>Certificate</title>
+  </head>
+  <body>
+    <button class="certificate-show">Ваш сертификат</button>
+    <div class="certificate">
+      <a href="#!" class="certificate__download">
+        <i class="material-icons">file_download</i>
+        <p>Скачать PDF</p>
+      </a>
+      <div class="certificate__wrapper">
+        <div id="load-window" class="certificate__window">
+          <img src="../public/images/certificate44.svg" alt="" />
+          <div class="certificate__textblock">
+            <h3 class="certificate__title">Сертификат</h3>
+            <p class="certificate__str1">свидетельствует о том, что</p>
+            <p class="certificate__username">Таразанова Мария</p>
+            <p class="certificate__type-of-course">
+              окончил(а) <span>ознакомительный</span> онлайн курс
+            </p>
+            <p class="certificate__name-of-course">“Data Mining для всех”</p>
+            <div class="certificate__flex-platform-and-date">
+              <p class="certificate__name-of-platform">Выдан NOOEDU</p>
+              <p class="certificate__expiration-date">10.06.2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script src="../public/js/certificate.js"></script>
+  </body>
+</html>
